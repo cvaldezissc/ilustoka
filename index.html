@@ -128,7 +128,7 @@
     <!--================End The best slider Area =================-->
 
     <!--================Team People Area =================-->
-    <section class="team_people_area">
+    <section class="team_people_area" id="aboutsection">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6">
@@ -327,7 +327,9 @@
 
 
             $("#aboutmenu").click(function () {
-                $("html, body").animate({ scrollTop: $(document).height() }, "slow");
+                $([document.documentElement, document.body]).animate({
+                    scrollTop: $("#aboutsection").offset().top
+                }, 2000);
             });
 
             $("#contactmenu").click(function () {
