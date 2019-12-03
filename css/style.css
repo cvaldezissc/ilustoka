@@ -289,6 +289,14 @@ p{
   }
 }
 
+#text_portfolio{
+  font-family: 'Helvetica';
+  font-size: 14px;
+  font-weight: lighter;
+  src:url('/fonts/HelveticaLt.ttf');
+}
+
+
 .main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li {
   margin-right: 0px;
   display: block;
