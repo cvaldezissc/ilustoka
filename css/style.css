@@ -405,8 +405,8 @@ i:before {
 #button1 {
   display: inline-block;
   background-color: transparent;
-  padding-right: 1%;
-  padding-bottom: 5%;
+  padding-right: 0.002%;
+  padding-bottom: 2%;
   text-align: center;
   border-radius: 4px;
   margin: 30px;
@@ -420,8 +420,8 @@ i:before {
 #button2 {
   display: inline-block;
   background-color: transparent;
-  padding-right: 1%;
-  padding-bottom: 5%;
+  padding-right: 0.002%;
+  padding-bottom: 8dp;
   text-align: center;
   border-radius: 4px;
   margin: 30px;
