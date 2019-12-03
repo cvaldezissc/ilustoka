@@ -406,7 +406,7 @@ i:before {
   display: inline-block;
   background-color: transparent;
   padding-right: 0.002%;
-  padding-bottom: 2%;
+  padding-bottom: 0.02%;
   text-align: center;
   border-radius: 4px;
   margin: 30px;
