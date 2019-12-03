@@ -228,6 +228,13 @@ i:before {
   src: url('../fonts/GothamBold.otf');
 }
 
+@font-face{
+  font-family: 'Helvetica';
+  src: url('/fonts/HelveticaLt.ttf');
+}
+
+
+
 .main_menu_area .navbar .navbar-nav li a {
   font-size: 15px;
 
@@ -243,6 +250,13 @@ i:before {
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
   transition: all 400ms linear 0s;
+}
+
+p{
+  font-family: 'Helvetica';
+  src: url("/fonts/HelveticaLt.ttf");
+  font-size: 36px;
+  font-weight: bold;
 }
 
 .main_menu_area .navbar .navbar-nav li:last-child {
