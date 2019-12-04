@@ -462,8 +462,32 @@ p{
 }
 
 
+.grid-container {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "IMG1 IMG3 IMG3 IMG4" "IMG2 IMG3 IMG3 IMG5";
+}
+
+.TABLE-HEADER { grid-area: TABLE-HEADER; }
+
+.IMG3 { grid-area: IMG3; }
+
+.IMG1 { grid-area: IMG1; }
+
+.IMG2 { grid-area: IMG2; }
+
+.IMG4 { grid-area: IMG4; }
+
+.IMG5 { grid-area: IMG5; }
 
 
+.alignVertical {
+  position:relative;
+  display:inline-block;
+  top:50%;
+  transform:translateY(-50%);
+}
 
 .center_and_formatted{
   text-align: center;
