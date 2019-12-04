@@ -462,6 +462,22 @@ p{
 }
 
 
+.vcenter{
+   display: inline-block;
+   vertical-align: middle;
+   float: none;
+}
+
+#mydiv .row > div {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  padding-left: 50%;
+  padding-right: 50%;
+  padding-top: 50%;
+  padding-bottom: 50%;
+}
+
 .grid-container {
   display: grid;
   /* grid-template-columns: 1fr 1fr 1fr 1fr; */
