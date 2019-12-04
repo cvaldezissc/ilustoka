@@ -49,13 +49,28 @@
             </button>
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about" id="aboutmenu">Acerca De</a></li>
-                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portafolio</a></li>
+                    <li class="nav-item dropdown submenu">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Portafolios
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li class="nav-item"><a class="nav-link" href="portafolio_esmeralda.html">ESMERALDA</a></li>
+                            <li class="nav-item"><a class="nav-link" href="portafolio_kechis.html">AQUEHTZALI</a></li>
+                            <li class="nav-item"><a class="nav-link" href="portafolio_analucia.html">ANA LUCIA</a></li>
+                            <li class="nav-item"><a class="nav-link" href="portafolio_tania.html">TANIA</a></li>
+                        </ul>
+                    </li>
+
                     <li class="nav-item"><a class="nav-link" href="#contactmenu" id="contactmenu">Contacto</a></li>
 
                 </ul>
+
+
             </div>
         </nav>
     </header>
@@ -115,12 +130,17 @@
                         <h2 style="font-family: 'Gotham'; src:url('/fonts/GothamBold.otf'); font-weight: bold;">Nuestra
                             m&aacute;s grande fortaleza es nuestro equipo</h2>
                     </div>
-                    <p style="font-family: 'Helvetica'; src:url('/fonts/HelveticaLt.ttf');">Muchas veces para lograr
-                        salir
-                        adelante con un trabajo es necesario involucrar
-                        m&aacute;s puntos
-                        de vista en el sentido de que hacen que se aporte al producto o servicio final, y eso es nuestro
-                        valor agregado; los diferentes puntos de vista que te hacen destacar!. </p>
+                    <div class="container">
+                        <p class="text-center" style="font-family: 'Helvetica'; src:url('/fonts/HelveticaLt.ttf');">
+                            Muchas
+                            veces para lograr
+                            salir
+                            adelante con un trabajo es necesario involucrar
+                            m&aacute;s puntos
+                            de vista en el sentido de que hacen que se aporte al producto o servicio final, y eso es
+                            nuestro
+                            valor agregado; los diferentes puntos de vista que te hacen destacar!. </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -184,11 +204,11 @@
     <!--================End Team People Area =================-->
 
     <!--================Get in Touch Area =================-->
-    <section class="get_in_touch_area" id="contactform">
-        <div class="container">
+    <section class="get_in_touch_area">
+        <div class="container" id="contactForm">
             <div class="row get_touch_inner">
                 <div class="col-lg-6">
-                    <form class="contact_us_form row" action="contact_process.php" method="post" id="contactForm"
+                    <form class="contact_us_form row" action="contact_process.php" method="post"
                         novalidate="novalidate">
                         <div class="form-group col-lg-6">
                             <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required>
@@ -334,7 +354,7 @@
 
             $("#contactmenu").click(function () {
                 $([document.documentElement, document.body]).animate({
-                    scrollTop: $("#contactform").offset().top
+                    scrollTop: $("#contactForm").offset().top
                 }, 2000);
             });
 
@@ -345,15 +365,7 @@
 
 
 
-
-
-
         });
-
-
-
-
-
     </script>
 </body>
 
